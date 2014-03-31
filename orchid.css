@@ -1,0 +1,89 @@
+/*
+ Width: 1000px
+ # Columns : 
+ Column width: 65px
+ Gutter : 20px
+ */
+
+@import url(http://fonts.googleapis.com/css?family=Acme);
+
+.body {
+    font-family: Garamond;
+	font-size: 16px;
+	color: #D633AD;
+	text-align: center
+}
+
+h1 {
+	text-align: center;
+	font-family: 'Acme', sans-serif;
+	color: #3cb371;
+}
+
+nav {
+	text-align: center;
+}
+
+#intro-div {
+	margin: 0% auto;
+    width: 55%;
+    height: 8%; /*80px*/
+}
+.container {
+	max-width:1000px;
+	width: 70%;
+	border: solid;
+	margin: 10%;
+}
+#subpage-nav-container {
+	margin: 2% auto; /*80px divided by 1000px*/
+	width: 78%; /*780px divided by 1000px*/
+	height: 16%; /*160x divided by 1000*/
+}
+.btn {
+	float: left;
+	margin-right: 3.84615385%; /*30px divided by 780px subpagenavcontainer*/
+	width: 17.94871795%; /*140px divided by 780px subpagenavcontainer*/
+	text-align: center;
+	border: 1px dotted; /*2px*/
+	background-color: #E0C2FF;
+	padding: 7.05128205% 0%; /*55px*/
+	margin: 0% 0.64102564% 7%; /*5px*/
+	border-radius: 10%; /*15px*/
+}
+.footer {
+	clear: both;
+	text-align: center;
+}
+
+.clear{clear:both;display:block;overflow:hidden;visibility:hidden;width:0;height:0}
+.clearfix:after{clear:both;content:' ';display:block;font-size:0;line-height:0;visibility:hidden;width:0;height:0}* html
+.clearfix,*:first-child+html
+.clearfix{zoom:1}
+
+a {
+	color: #0000CD;
+	text-decoration: none;
+	font-family: Garamond;
+}
+
+img {
+	max-width: 100%;
+}
+
+/* Media Queries */
+/* Smaller Resolution --------------------- */
+@media screen and (max-width: 480px) {
+	#intro-div,
+	.container,
+	#subpage-nav-container {
+		width 100%;
+	}
+	.btn {
+		width: 100%;
+		border-radius: 0px;
+		margin-bottom: 3%;
+	}
+}
+
+
