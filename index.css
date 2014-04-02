@@ -1,46 +1,53 @@
 /*
  Width: 1000px
- # Columns : 
- Column width: 65px
- Gutter : 20px
  */
 
 @import url(http://fonts.googleapis.com/css?family=Acme);
+@import url(http://fonts.googleapis.com/css?family=Open+Sans:400,800,300,600,700);
+@import url(http://fonts.googleapis.com/css?family=Lato:100,300,400,700,900);
+@import url(http://fonts.googleapis.com/css?family=Poiret+One);
+@import url(http://fonts.googleapis.com/css?family=Questrial|Lovers+Quarrel|Emilys+Candy|Mr+Bedfort|Butterfly+Kids|Pompiere|Lily+Script+One|Quicksand:300,400,700|Josefin+Sans:100,300,400,600,700|Life+Savers:400,700|Sevillana|Muli:300,400|Clicker+Script|Raleway:400,300,500,600,700,800,900,200,100|Delius|Ribeye+Marrow|Kranky|Sacramento|Cookie|Miltonian|Mystery+Quest|Raleway+Dots);
 
 .body {
-    font-family: Garamond;
+  font-family: Garamond;
 	font-size: 16px;
 	color: #D633AD;
 	text-align: center
 }
 
-h1 {
+.main-header {
 	text-align: center;
 	font-family: 'Acme', sans-serif;
 	color: #3cb371;
+	font-size: 36px;
+	margin-top: 8rem;
+	margin-bottom: 5rem;
 }
 
 nav {
 	text-align: center;
 }
 
-#intro-div {
-	margin: 0% auto;
-    width: 55%;
-    height: 8%; /*80px*/
-}
-.main-container {
+#main-container {
 	max-width:1000px;
-	width: 70%;
-	border: solid;
-	margin: 10%;
-	margin-right: -40px;
+	margin: auto;
 }
-#subpage-nav-container {
+
+.link-container {
 	margin: 2% auto; /*80px divided by 1000px*/
 	width: 78%; /*780px divided by 1000px*/
 	height: 16%; /*160x divided by 1000*/
 }
+
+.intro-container {
+	text-align: center;
+	width: 70%;
+	border: solid;
+	margin: auto;
+	margin-bottom: 5rem;
+	margin-top: 5rem;
+}
+
 .btn {
 	float: left;
 	margin-right: 3.84615385%; /*30px divided by 780px subpagenavcontainer*/
@@ -52,15 +59,11 @@ nav {
 	margin: 0% 0.64102564% 7%; /*5px*/
 	border-radius: 10%; /*15px*/
 }
-.footer {
+
+.main_footer {
 	clear: both;
 	text-align: center;
 }
-
-.clear{clear:both;display:block;overflow:hidden;visibility:hidden;width:0;height:0}
-.clearfix:after{clear:both;content:' ';display:block;font-size:0;line-height:0;visibility:hidden;width:0;height:0}* html
-.clearfix,*:first-child+html
-.clearfix{zoom:1}
 
 a {
 	color: #0000CD;
@@ -68,8 +71,11 @@ a {
 	font-family: Garamond;
 }
 
-img {
-	max-width: 100%;
+p {
+	font-family: 'Quicksand', 'Lato', 'Open Sans', 'Verdana', Helvetica, Arial, sans-serif;
+	font-size: 1rem;
+	font-weight: 300;
+	line-height: 1.5rem;
 }
 
 /* Media Queries */
