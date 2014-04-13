@@ -9,24 +9,51 @@
 @import url(http://fonts.googleapis.com/css?family=Questrial|Lovers+Quarrel|Emilys+Candy|Mr+Bedfort|Butterfly+Kids|Pompiere|Lily+Script+One|Quicksand:300,400,700|Josefin+Sans:100,300,400,600,700|Life+Savers:400,700|Sevillana|Clicker+Script|Raleway:400,300,500,600,700,800,900,200,100|Delius|Ribeye+Marrow|Kranky|Sacramento|Cookie|Miltonian|Mystery+Quest|Raleway+Dots);
 
 .main-header {
-	text-align: center;
 	font-family: 'Acme', sans-serif;
 	color: #3cb371;
 	font-size: 36px;
-	margin-top: 8rem;
-	margin-bottom: 5rem;
+	text-align: center;
+	padding-top: 15rem;
+	padding-left: 22rem;
+	width: 20rem;
+	height:7rem;
 }
 
 nav {
 	font-family: 'Questrial', 'Lato', 'Open Sans', 'Verdana', Helvetica, Arial, sans-serif;
-	font-size: 1.2rem;
+	font-size: 1rem;
 	font-weight: 300;
 	text-align: center;
+}
+
+a {
+	color: #D685FF;
+	text-decoration: none;
+	white-space: 7rem;
+}
+
+a:hover {
+	color: #E6E6E6;
+}
+
+a:visited {
+	color: #0000DE;
+}
+
+.nav-link {
+	margin: 0rem .7rem;
 }
 
 #main-container {
 	max-width:1000px;
 	margin: auto;
+}
+
+.orchid-image {
+	position: fixed;
+	float: left;
+	margin-left: -1rem;
+	margin-top: -3rem;
 }
 
 .link-container {
@@ -38,10 +65,17 @@ nav {
 .intro-container {
 	text-align: center;
 	width: 70%;
-	border: solid;
+	border: none;
 	margin: auto;
 	margin-bottom: 5rem;
 	margin-top: 5rem;
+}
+
+p {
+	font-family: 'Raleway', 'Lato', 'Open Sans', 'Verdana', Helvetica, Arial, sans-serif;
+	font-size: 1.1rem;
+	font-weight: 300;
+	line-height: 1.6rem;
 }
 
 .btn {
@@ -56,29 +90,17 @@ nav {
 	font-family:'Josefin Sans';
 	font-size: 1.2rem;
 	text-align: center;
+	color: #0000DE;
 }
 
 .main_footer {
 	clear: both;
+	font-family: 'Raleway';
 	text-align: center;
 }
 
-a {
-	color: #0000CD;
-	text-decoration: none;
-	white-space: 2rem;
-}
 
-a:hover {
-	text-transform: uppercase;
-}
 
-p {
-	font-family: 'Raleway', 'Lato', 'Open Sans', 'Verdana', Helvetica, Arial, sans-serif;
-	font-size: 1.2rem;
-	font-weight: 300;
-	line-height: 1.6rem;
-}
 
 /* Media Queries */
 /* Smaller Resolution --------------------- */
