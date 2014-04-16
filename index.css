@@ -28,7 +28,6 @@ body, html{
 	font-size: 36px;
 	text-align: center;
 	padding-top: 5rem;
-	border: solid;
 }
 
 nav {
@@ -38,18 +37,14 @@ nav {
 	text-align: center;
 }
 
+a:hover {
+	color: #E6E6E6;
+}
+
 a {
 	color: #D685FF;
 	text-decoration: none;
 	white-space: 7rem;
-}
-
-#home a {
-	color: #3cb371;
-}
-
-a:hover {
-	color: #E6E6E6;
 }
 
 #nav-link {
@@ -60,7 +55,6 @@ a:hover {
 	width: 100%;
 	margin: 0rem auto;
 	padding: 0rem;
-	border: solid;
 }
 
 .link-container {
@@ -74,8 +68,6 @@ a:hover {
 	width: 70%;
 	border: none;
 	margin: auto;
-	margin-bottom: 5rem;
-	margin-top: 5rem;
 }
 
 p {
