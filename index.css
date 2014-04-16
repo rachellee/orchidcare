@@ -8,14 +8,27 @@
 @import url(http://fonts.googleapis.com/css?family=Poiret+One);
 @import url(http://fonts.googleapis.com/css?family=Questrial|Lovers+Quarrel|Emilys+Candy|Mr+Bedfort|Butterfly+Kids|Pompiere|Lily+Script+One|Quicksand:300,400,700|Josefin+Sans:100,300,400,600,700|Life+Savers:400,700|Sevillana|Clicker+Script|Raleway:400,300,500,600,700,800,900,200,100|Delius|Ribeye+Marrow|Kranky|Sacramento|Cookie|Miltonian|Mystery+Quest|Raleway+Dots);
 
+body, html{
+	width: 100%;
+	margin: 0px;
+	padding: 0px;
+}
+
+.orchid-image {
+	width: 100%;
+	height: 400px;
+	margin: 0px;
+	padding: 0px;
+	overflow: hidden;
+
+}
+
 .main-header {
 	font-family: 'Acme', sans-serif;
 	color: #3cb371;
 	font-size: 36px;
 	text-align: center;
-	padding-top: 15rem;
-	padding-left: 22rem;
-	width: 20rem;
+	padding-top: 10rem;
 	height:7rem;
 }
 
@@ -47,13 +60,6 @@ a:visited {
 #main-container {
 	max-width:1000px;
 	margin: auto;
-}
-
-.orchid-image {
-	position: fixed;
-	float: left;
-	margin-left: -1rem;
-	margin-top: -3rem;
 }
 
 .link-container {
