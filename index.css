@@ -16,11 +16,10 @@ body, html{
 
 .orchid-image {
 	width: 100%;
-	height: 400px;
+	height: 450px;
 	margin: 0px;
 	padding: 0px;
 	overflow: hidden;
-
 }
 
 .main-header {
@@ -28,9 +27,10 @@ body, html{
 	color: #3cb371;
 	font-size: 36px;
 	text-align: center;
-	padding-top: 10rem;
+	padding-top: 5rem;
 	height:7rem;
 }
+
 
 nav {
 	font-family: 'Questrial', 'Lato', 'Open Sans', 'Verdana', Helvetica, Arial, sans-serif;
@@ -45,12 +45,12 @@ a {
 	white-space: 7rem;
 }
 
-a:hover {
-	color: #E6E6E6;
+.header a {
+	color: #3cb371;
 }
 
-a:visited {
-	color: #0000DE;
+a:hover {
+	color: #E6E6E6;
 }
 
 .nav-link {
