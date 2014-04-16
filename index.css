@@ -28,7 +28,6 @@ body, html{
 	font-size: 36px;
 	text-align: center;
 	padding-top: 5rem;
-	padding-bottom: 5rem;
 }
 
 nav {
@@ -38,14 +37,18 @@ nav {
 	text-align: center;
 }
 
-a:hover {
-	color: #E6E6E6;
-}
-
 a {
 	color: #D685FF;
 	text-decoration: none;
 	white-space: 7rem;
+}
+
+#home a {
+	color: #3cb371;
+}
+
+a:hover {
+	color: #E6E6E6;
 }
 
 #nav-link {
@@ -54,14 +57,8 @@ a {
 
 .main-container {
 	width: 100%;
-	margin: 0rem auto;
+	margin: 4rem auto;
 	padding: 0rem;
-}
-
-.link-container {
-	margin: 2% auto; /*80px divided by 1000px*/
-	width: 78%; /*780px divided by 1000px*/
-	height: 16%; /*160x divided by 1000*/
 }
 
 .intro-container {
@@ -69,6 +66,12 @@ a {
 	width: 70%;
 	border: none;
 	margin: auto;
+}
+
+.link-container {
+	margin: 7% auto; /*80px divided by 1000px*/
+	width: 78%; /*780px divided by 1000px*/
+	height: 16%; /*160px divided by 1000*/
 }
 
 p {
@@ -79,18 +82,18 @@ p {
 }
 
 .btn {
-	float: left;
-	margin-right: 3.84615385%; /*30px divided by 780px subpagenavcontainer*/
-	width: 17.94871795%; /*140px divided by 780px subpagenavcontainer*/
-	border: 1px dotted; /*2px*/
-	background-color: #E0C2FF;
-	padding: 7.05128205% 0%; /*55px*/
-	margin: 0% 0.64102564% 7%; /*5px*/
-	border-radius: 10%; /*15px*/
 	font-family:'Josefin Sans';
 	font-size: 1.2rem;
 	text-align: center;
 	color: #0000DE;
+	float: left;
+	margin-right: 3.84615385%; /*30px divided by 780px subpagenavcontainer*/
+	width: 17.94871795%; /*140px divided by 780px subpagenavcontainer*/
+	border: 1px solid #000000; /*2px*/
+	padding: 7.05128205% 0%; /*55px*/
+	margin: 0% 0.64102564% 7%; /*5px*/
+	border-radius: 5%; /*15px*/
+	background-color: #FFFFFF;
 }
 
 .main_footer {
