@@ -47,6 +47,10 @@ a {
 	color: #3cb371;
 }
 
+#home a:hover {
+	color: #9AE8BA;
+}
+
 a:hover {
 	color: #E6E6E6;
 }
@@ -71,7 +75,6 @@ a:hover {
 .link-container {
 	margin: 7% auto; /*80px divided by 1000px*/
 	width: 78%; /*780px divided by 1000px*/
-	height: 16%; /*160px divided by 1000*/
 }
 
 p {
@@ -85,10 +88,12 @@ p {
 	font-family:'Josefin Sans';
 	font-size: 1.2rem;
 	text-align: center;
+	line-height: 1.5rem;
 	color: #0000DE;
 	float: left;
 	margin-right: 3.84615385%; /*30px divided by 780px subpagenavcontainer*/
 	width: 17.94871795%; /*140px divided by 780px subpagenavcontainer*/
+	height: 3rem;
 	border: 1px solid #000000; /*2px*/
 	padding: 7.05128205% 0%; /*55px*/
 	margin: 0% 0.64102564% 7%; /*5px*/
@@ -96,28 +101,32 @@ p {
 	background-color: #FFFFFF;
 }
 
-.main_footer {
+#main_footer {
 	clear: both;
 	font-family: 'Raleway';
 	text-align: center;
+	padding: 3rem 0rem;
 }
-
-
 
 
 /* Media Queries */
 /* Smaller Resolution --------------------- */
-@media screen and (max-width: 480px) {
-	#intro-div,
-	.container,
-	#subpage-nav-container {
-		width 100%;
-	}
-	.btn {
+@media screen and (max-width: 580px) {
+	.btn{
 		width: 100%;
 		border-radius: 0px;
 		margin-bottom: 3%;
 	}
 }
 
+@media screen and (max-width: 580px) {
+	#orchid-image {
+		height: 350px;
+	}
+}
 
+@media screen and (max-width: 320px) {
+	#orchid-image {
+		height: 250px;
+	}
+}
