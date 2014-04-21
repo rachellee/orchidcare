@@ -65,16 +65,52 @@ a:hover {
 	padding: 0rem;
 }
 
-.intro-container {
+.intro {
 	text-align: center;
 	width: 70%;
 	border: none;
 	margin: auto;
+	padding: 3rem 0rem;
 }
 
-.link-container {
-	margin: 7% auto; /*80px divided by 1000px*/
-	width: 78%; /*780px divided by 1000px*/
+.ailments {
+	text-align: center;
+	width: 70%;
+	border: none;
+	margin: auto;
+	padding: 3rem 0rem;
+}
+
+.repotting {
+	text-align: center;
+	width: 70%;
+	border: none;
+	margin: auto;
+	padding: 3rem 0rem;
+}
+
+.flowering {
+	text-align: center;
+	width: 70%;
+	border: none;
+	margin: auto;
+	padding: 3rem 0rem;
+}
+
+.fertilizers {
+	text-align: center;
+	width: 70%;
+	border: none;
+	margin: auto;
+	padding: 3rem 0rem;
+}
+
+.lingo {
+	text-align: center;
+	width: 70%;
+	border: none;
+	margin: auto;
+	padding: 3rem 0rem;
 }
 
 p {
@@ -84,22 +120,7 @@ p {
 	line-height: 1.6rem;
 }
 
-.btn {
-	font-family:'Josefin Sans';
-	font-size: 1.2rem;
-	text-align: center;
-	line-height: 1.5rem;
-	color: #0000DE;
-	float: left;
-	margin-right: 3.84615385%; /*30px divided by 780px subpagenavcontainer*/
-	width: 17.94871795%; /*140px divided by 780px subpagenavcontainer*/
-	height: 3rem;
-	border: 1px solid #000000; /*2px*/
-	padding: 7.05128205% 0%; /*55px*/
-	margin: 0% 0.64102564% 7%; /*5px*/
-	border-radius: 5%; /*15px*/
-	background-color: #FFFFFF;
-}
+
 
 #main_footer {
 	clear: both;
@@ -111,13 +132,6 @@ p {
 
 /* Media Queries */
 /* Smaller Resolution --------------------- */
-@media screen and (max-width: 580px) {
-	.btn{
-		width: 100%;
-		border-radius: 0px;
-		margin-bottom: 3%;
-	}
-}
 
 @media screen and (max-width: 580px) {
 	#orchid-image {
@@ -130,15 +144,3 @@ p {
 		height: 250px;
 	}
 }
-
-
-/* ===========================================================================================
-	ailments styling
-   =========================================================================================== */
-.ailments {
-	width: 100%;
-	padding: 2.5rem 0rem;
-	text-align: center;
-	font-family: 'Lato', 'Open Sans', 'Verdana', Helvetica, Arial, sans-serif;
-}
-
