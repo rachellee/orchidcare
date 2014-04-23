@@ -6,8 +6,8 @@
 @import url(http://fonts.googleapis.com/css?family=Open+Sans:400,800,300,600,700);
 @import url(http://fonts.googleapis.com/css?family=Lato:100,300,400,700,900);
 @import url(http://fonts.googleapis.com/css?family=Poiret+One);
-@import url(http://fonts.googleapis.com/css?family=Questrial|Lovers+Quarrel|Emilys+Candy|Mr+Bedfort|Butterfly+Kids|Pompiere|Lily+Script+One|Quicksand:300,400,700|Josefin+Sans:100,300,400,600,700|Life+Savers:400,700|Sevillana|Clicker+Script|Raleway:400,300,500,600,700,800,900,200,100|Delius|Ribeye+Marrow|Kranky|Sacramento|Cookie|Miltonian|Mystery+Quest|Raleway+Dots);
-@import url(http://fonts.googleapis.com/css?family=Rum+Raisin|Paytone+One|Glass+Antiqua|Clicker+Script|Purple+Purse|Spirax|Original+Surfer|Lobster+Two:400,700|Cookie|Sacramento|Norican|Chango|Cherry+Swash:400,700);
+@import url(http://fonts.googleapis.com/css?family=Quicksand:300,400,700|Josefin+Sans:100,300,400,600,700|Life+Savers:400,700|Sevillana|Clicker+Script|Raleway:400,300,500,600,700,800,900,200,100|Delius|Ribeye+Marrow|Kranky|Sacramento|Cookie|Miltonian|Mystery+Quest|Raleway+Dots);
+@import url(http://fonts.googleapis.com/css?family=Paytone+One|Glass+Antiqua|Clicker+Script|Purple+Purse|Spirax|Original+Surfer|Lobster+Two:400,700|Cookie|Sacramento|Norican|Chango|Cherry+Swash:400,700);
 
 body, html{
 	width: 100%;
@@ -35,7 +35,7 @@ body, html{
 }
 
 #main-header {
-	font-family: 'Original Surfer', 'Poiret One', 'Acme', sans-serif;
+	font-family: 'paytone one' 'Original Surfer', 'Poiret One', 'Acme', sans-serif;
 	color: #3cb371;
 	font-size: 50px;
 	font-style: bold;
@@ -59,13 +59,13 @@ a {
 	white-space: 7rem;
 }
 
-#home a {
+/* #home a {
 	color: #3cb371;
 }
 
 #home a:hover {
 	color: #9AE8BA;
-}
+} */
 
 a:hover {
 	color: #E6E6E6;
@@ -77,13 +77,15 @@ a:hover {
 
 .main-container {
 	width: 100%;
-	margin: 4rem auto;
 	padding: 0rem;
+	margin: 0rem;
 }
 
 .intro {
 	text-align: center;
-	width: 80%;
+	vertical-align: middle;
+	
+	width: 100%;
 	height: 280px;
 	border: solid;
 	margin: auto;
@@ -92,7 +94,7 @@ a:hover {
 
 .ailments {
 	text-align: center;
-	width: 80%;
+	width: 100%;
 	height: 280px;
 	border: solid;
 	margin: auto;
@@ -101,7 +103,7 @@ a:hover {
 
 .repotting {
 	text-align: center;
-	width: 80%;
+	width: 100%;
 	height: 280px;
 	border: solid;
 	margin: auto;
@@ -110,7 +112,7 @@ a:hover {
 
 .flowering {
 	text-align: center;
-	width: 80%;
+	width: 100%;
 	height: 280px;
 	border: solid;
 	margin: auto;
@@ -119,7 +121,7 @@ a:hover {
 
 .fertilizers {
 	text-align: center;
-	width: 80%;
+	width: 100%;
 	height: 280px;
 	border: solid;
 	margin: auto;
@@ -128,7 +130,7 @@ a:hover {
 
 .lingo {
 	text-align: center;
-	width: 80%;
+	width: 100%;
 	height: 280px;
 	border: solid;
 	margin: auto;
@@ -155,14 +157,49 @@ p {
 /* Media Queries */
 /* Smaller Resolution --------------------- */
 
-@media screen and (max-width: 580px) {
+@media screen and (min-width: 378px) {
+	.top {
+	height: 300px;
+	position: relative;
+	}
+
 	#orchid-image {
-		height: 350px;
+		height: 300px;
+	}
+
+	#main-header {
+		font-size: 40px;
+		padding-top: 5rem;
+	}
+
+	.intro, .ailments, .repotting, .flowering, .fertilizers, .lingo {
+		height: 200px;
+	}
+
+	p {
+		font-size: 12px;
 	}
 }
 
-@media screen and (max-width: 320px) {
+@media screen and (min-width: 580px) {
+	.top {
+	height: 350px;
+	position: relative;
+	}
+
 	#orchid-image {
-		height: 250px;
+		height: 350px;
+	}
+	#main-header {
+		padding-top: 6rem;
+	}
+
+	.intro, .ailments, .repotting, .flowering, .fertilizers, .lingo {
+		height: 280px;
+	}
+
+	p {
+		font-size: 1.1rem;
 	}
 }
+
