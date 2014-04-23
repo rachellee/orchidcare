@@ -7,6 +7,7 @@
 @import url(http://fonts.googleapis.com/css?family=Lato:100,300,400,700,900);
 @import url(http://fonts.googleapis.com/css?family=Poiret+One);
 @import url(http://fonts.googleapis.com/css?family=Questrial|Lovers+Quarrel|Emilys+Candy|Mr+Bedfort|Butterfly+Kids|Pompiere|Lily+Script+One|Quicksand:300,400,700|Josefin+Sans:100,300,400,600,700|Life+Savers:400,700|Sevillana|Clicker+Script|Raleway:400,300,500,600,700,800,900,200,100|Delius|Ribeye+Marrow|Kranky|Sacramento|Cookie|Miltonian|Mystery+Quest|Raleway+Dots);
+@import url(http://fonts.googleapis.com/css?family=Rum+Raisin|Paytone+One|Glass+Antiqua|Clicker+Script|Purple+Purse|Spirax|Original+Surfer|Lobster+Two:400,700|Cookie|Sacramento|Norican|Chango|Cherry+Swash:400,700);
 
 body, html{
 	width: 100%;
@@ -14,20 +15,35 @@ body, html{
 	padding: 0px;
 }
 
+.top {
+	height: 450px;
+	position: relative;
+}
+
 #orchid-image {
 	width: 100%;
 	height: 450px;
 	margin: 0px;
 	padding: 0px;
+	position: absolute;
 	overflow: hidden;
+	opacity: 0.35;
+	z-index: 0;
+	filter: url(filters.svg#grayscale); /* Firefox 3.5+ */
+  filter: gray; /* IE6-9 */
+  -webkit-filter: grayscale(1); /* Google Chrome, Safari 6+ & Opera 15+ */
 }
 
 #main-header {
-	font-family: 'Acme', sans-serif;
+	font-family: 'Original Surfer', 'Poiret One', 'Acme', sans-serif;
 	color: #3cb371;
-	font-size: 36px;
+	font-size: 50px;
+	font-style: bold;
 	text-align: center;
-	padding-top: 5rem;
+	padding-top: 10rem;
+	width: 100%;
+	position: absolute;
+	z-index: 1;
 }
 
 nav {
@@ -67,23 +83,25 @@ a:hover {
 
 .intro {
 	text-align: center;
-	width: 70%;
-	border: none;
+	width: 80%;
+	height: 250px;
+	border: solid;
 	margin: auto;
 	padding: 3rem 0rem;
 }
 
 .ailments {
 	text-align: center;
-	width: 70%;
-	border: none;
+	width: 80%;
+	border: solid;
 	margin: auto;
 	padding: 3rem 0rem;
+	color: ;
 }
 
 .repotting {
 	text-align: center;
-	width: 70%;
+	width: 80%;
 	border: none;
 	margin: auto;
 	padding: 3rem 0rem;
@@ -91,7 +109,8 @@ a:hover {
 
 .flowering {
 	text-align: center;
-	width: 70%;
+	width: 80%;
+	height: 700px;
 	border: none;
 	margin: auto;
 	padding: 3rem 0rem;
@@ -99,7 +118,7 @@ a:hover {
 
 .fertilizers {
 	text-align: center;
-	width: 70%;
+	width: 80%;
 	border: none;
 	margin: auto;
 	padding: 3rem 0rem;
@@ -107,7 +126,7 @@ a:hover {
 
 .lingo {
 	text-align: center;
-	width: 70%;
+	width: 80%;
 	border: none;
 	margin: auto;
 	padding: 3rem 0rem;
