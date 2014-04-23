@@ -84,7 +84,7 @@ a:hover {
 .intro {
 	text-align: center;
 	width: 80%;
-	height: 250px;
+	height: 280px;
 	border: solid;
 	margin: auto;
 	padding: 3rem 0rem;
@@ -93,16 +93,17 @@ a:hover {
 .ailments {
 	text-align: center;
 	width: 80%;
+	height: 280px;
 	border: solid;
 	margin: auto;
 	padding: 3rem 0rem;
-	color: ;
 }
 
 .repotting {
 	text-align: center;
 	width: 80%;
-	border: none;
+	height: 280px;
+	border: solid;
 	margin: auto;
 	padding: 3rem 0rem;
 }
@@ -110,8 +111,8 @@ a:hover {
 .flowering {
 	text-align: center;
 	width: 80%;
-	height: 700px;
-	border: none;
+	height: 280px;
+	border: solid;
 	margin: auto;
 	padding: 3rem 0rem;
 }
@@ -119,7 +120,8 @@ a:hover {
 .fertilizers {
 	text-align: center;
 	width: 80%;
-	border: none;
+	height: 280px;
+	border: solid;
 	margin: auto;
 	padding: 3rem 0rem;
 }
@@ -127,7 +129,8 @@ a:hover {
 .lingo {
 	text-align: center;
 	width: 80%;
-	border: none;
+	height: 280px;
+	border: solid;
 	margin: auto;
 	padding: 3rem 0rem;
 }
